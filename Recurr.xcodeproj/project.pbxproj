@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001291D0000000001 /* RecurrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000001 /* RecurrApp.swift */; };
+		AA000001291D0000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000002 /* ContentView.swift */; };
+		AA000001291D0000000003 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000003 /* Subscription.swift */; };
+		AA000001291D0000000004 /* FrequencyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000004 /* FrequencyType.swift */; };
+		AA000001291D0000000005 /* SubscriptionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000005 /* SubscriptionCategory.swift */; };
+		AA000001291D0000000006 /* CostCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000006 /* CostCalculator.swift */; };
+		AA000001291D0000000007 /* ThemeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000007 /* ThemeService.swift */; };
+		AA000001291D0000000008 /* ImageStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000008 /* ImageStorageService.swift */; };
+		AA000001291D0000000009 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000009 /* DashboardView.swift */; };
+		AA000001291D0000000010 /* BalanceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000010 /* BalanceCardView.swift */; };
+		AA000001291D0000000011 /* UpcomingPaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000011 /* UpcomingPaymentsView.swift */; };
+		AA000001291D0000000012 /* SubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000012 /* SubscriptionsView.swift */; };
+		AA000001291D0000000013 /* SubscriptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000013 /* SubscriptionRowView.swift */; };
+		AA000001291D0000000014 /* SubscriptionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000014 /* SubscriptionDetailView.swift */; };
+		AA000001291D0000000015 /* AddSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000015 /* AddSubscriptionView.swift */; };
+		AA000001291D0000000016 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000016 /* SettingsView.swift */; };
+		AA000001291D0000000017 /* LiquidGlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000017 /* LiquidGlassCard.swift */; };
+		AA000001291D0000000018 /* AmountDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000018 /* AmountDisplayView.swift */; };
+		AA000001291D0000000019 /* SubscriptionIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000019 /* SubscriptionIconView.swift */; };
+		AA000001291D0000000020 /* IconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000020 /* IconPickerView.swift */; };
+		AA000001291D0000000021 /* FrequencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000021 /* FrequencyPickerView.swift */; };
+		AA000001291D0000000022 /* CategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000022 /* CategoryPickerView.swift */; };
+		AA000001291D0000000023 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000023 /* Constants.swift */; };
+		AA000001291D0000000024 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000024 /* Extensions.swift */; };
+		AA000001291D0000000025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000025 /* Assets.xcassets */; };
+		AA000001291D0000000028 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000028 /* Account.swift */; };
+		AA000001291D0000000029 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000029 /* Tag.swift */; };
+		AA000001291D0000000030 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000030 /* NotificationService.swift */; };
+		AA000001291D0000000031 /* CloudKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000031 /* CloudKitService.swift */; };
+		AA000001291D0000000032 /* AccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000032 /* AccountsView.swift */; };
+		AA000001291D0000000033 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000033 /* TagsView.swift */; };
+		AA000001291D0000000034 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000034 /* Profile.swift */; };
+		AA000001291D0000000035 /* ProfilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000035 /* ProfilesView.swift */; };
+		AA000001291D0000000036 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002291D0000000036 /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000002291D0000000001 /* RecurrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurrApp.swift; sourceTree = "<group>"; };
+		AA000002291D0000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000003 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		AA000002291D0000000004 /* FrequencyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyType.swift; sourceTree = "<group>"; };
+		AA000002291D0000000005 /* SubscriptionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCategory.swift; sourceTree = "<group>"; };
+		AA000002291D0000000006 /* CostCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostCalculator.swift; sourceTree = "<group>"; };
+		AA000002291D0000000007 /* ThemeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeService.swift; sourceTree = "<group>"; };
+		AA000002291D0000000008 /* ImageStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStorageService.swift; sourceTree = "<group>"; };
+		AA000002291D0000000009 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000010 /* BalanceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceCardView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000011 /* UpcomingPaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingPaymentsView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000012 /* SubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000013 /* SubscriptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionRowView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000014 /* SubscriptionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionDetailView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000015 /* AddSubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubscriptionView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000016 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000017 /* LiquidGlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassCard.swift; sourceTree = "<group>"; };
+		AA000002291D0000000018 /* AmountDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountDisplayView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000019 /* SubscriptionIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionIconView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000020 /* IconPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPickerView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000021 /* FrequencyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyPickerView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000022 /* CategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000023 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AA000002291D0000000024 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AA000002291D0000000025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA000002291D0000000026 /* Recurr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Recurr.entitlements; sourceTree = "<group>"; };
+		AA000002291D0000000027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA000002291D0000000028 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		AA000002291D0000000029 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		AA000002291D0000000030 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		AA000002291D0000000031 /* CloudKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitService.swift; sourceTree = "<group>"; };
+		AA000002291D0000000032 /* AccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000033 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000034 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		AA000002291D0000000035 /* ProfilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilesView.swift; sourceTree = "<group>"; };
+		AA000002291D0000000036 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		AA000003291D0000000001 /* Recurr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recurr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA000004291D0000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA000005291D0000000001 = {
+			isa = PBXGroup;
+			children = (
+				AA000005291D0000000002 /* Recurr */,
+				AA000005291D0000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000002 /* Recurr */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002291D0000000001 /* RecurrApp.swift */,
+				AA000002291D0000000002 /* ContentView.swift */,
+				AA000005291D0000000004 /* Models */,
+				AA000005291D0000000005 /* Services */,
+				AA000005291D0000000006 /* Views */,
+				AA000005291D0000000010 /* Utilities */,
+				AA000002291D0000000025 /* Assets.xcassets */,
+				AA000002291D0000000026 /* Recurr.entitlements */,
+				AA000002291D0000000027 /* Info.plist */,
+			);
+			path = Recurr;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA000003291D0000000001 /* Recurr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002291D0000000003 /* Subscription.swift */,
+				AA000002291D0000000004 /* FrequencyType.swift */,
+				AA000002291D0000000005 /* SubscriptionCategory.swift */,
+				AA000002291D0000000028 /* Account.swift */,
+				AA000002291D0000000029 /* Tag.swift */,
+				AA000002291D0000000034 /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002291D0000000006 /* CostCalculator.swift */,
+				AA000002291D0000000007 /* ThemeService.swift */,
+				AA000002291D0000000008 /* ImageStorageService.swift */,
+				AA000002291D0000000030 /* NotificationService.swift */,
+				AA000002291D0000000031 /* CloudKitService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA000005291D0000000007 /* Dashboard */,
+				AA000005291D0000000008 /* Subscriptions */,
+				AA000005291D0000000009 /* Settings */,
+				AA000005291D0000000011 /* Components */,
+				AA000005291D0000000012 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000012 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002291D0000000036 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000007 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002291D0000000009 /* DashboardView.swift */,
+				AA000002291D0000000010 /* BalanceCardView.swift */,
+				AA000002291D0000000011 /* UpcomingPaymentsView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000008 /* Subscriptions */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002291D0000000012 /* SubscriptionsView.swift */,
+				AA000002291D0000000013 /* SubscriptionRowView.swift */,
+				AA000002291D0000000014 /* SubscriptionDetailView.swift */,
+				AA000002291D0000000015 /* AddSubscriptionView.swift */,
+			);
+			path = Subscriptions;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000009 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002291D0000000016 /* SettingsView.swift */,
+				AA000002291D0000000032 /* AccountsView.swift */,
+				AA000002291D0000000033 /* TagsView.swift */,
+				AA000002291D0000000035 /* ProfilesView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000010 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002291D0000000023 /* Constants.swift */,
+				AA000002291D0000000024 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AA000005291D0000000011 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002291D0000000017 /* LiquidGlassCard.swift */,
+				AA000002291D0000000018 /* AmountDisplayView.swift */,
+				AA000002291D0000000019 /* SubscriptionIconView.swift */,
+				AA000002291D0000000020 /* IconPickerView.swift */,
+				AA000002291D0000000021 /* FrequencyPickerView.swift */,
+				AA000002291D0000000022 /* CategoryPickerView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA000006291D0000000001 /* Recurr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000007291D0000000001 /* Build configuration list for PBXNativeTarget "Recurr" */;
+			buildPhases = (
+				AA000008291D0000000001 /* Sources */,
+				AA000004291D0000000001 /* Frameworks */,
+				AA000009291D0000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recurr;
+			productName = Recurr;
+			productReference = AA000003291D0000000001 /* Recurr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA000010291D0000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA000006291D0000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA000011291D0000000001 /* Build configuration list for PBXProject "Recurr" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = nl;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				nl,
+				Base,
+			);
+			mainGroup = AA000005291D0000000001;
+			productRefGroup = AA000005291D0000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA000006291D0000000001 /* Recurr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA000009291D0000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001291D0000000025 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA000008291D0000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001291D0000000001 /* RecurrApp.swift in Sources */,
+				AA000001291D0000000002 /* ContentView.swift in Sources */,
+				AA000001291D0000000003 /* Subscription.swift in Sources */,
+				AA000001291D0000000004 /* FrequencyType.swift in Sources */,
+				AA000001291D0000000005 /* SubscriptionCategory.swift in Sources */,
+				AA000001291D0000000006 /* CostCalculator.swift in Sources */,
+				AA000001291D0000000007 /* ThemeService.swift in Sources */,
+				AA000001291D0000000008 /* ImageStorageService.swift in Sources */,
+				AA000001291D0000000009 /* DashboardView.swift in Sources */,
+				AA000001291D0000000010 /* BalanceCardView.swift in Sources */,
+				AA000001291D0000000011 /* UpcomingPaymentsView.swift in Sources */,
+				AA000001291D0000000012 /* SubscriptionsView.swift in Sources */,
+				AA000001291D0000000013 /* SubscriptionRowView.swift in Sources */,
+				AA000001291D0000000014 /* SubscriptionDetailView.swift in Sources */,
+				AA000001291D0000000015 /* AddSubscriptionView.swift in Sources */,
+				AA000001291D0000000016 /* SettingsView.swift in Sources */,
+				AA000001291D0000000017 /* LiquidGlassCard.swift in Sources */,
+				AA000001291D0000000018 /* AmountDisplayView.swift in Sources */,
+				AA000001291D0000000019 /* SubscriptionIconView.swift in Sources */,
+				AA000001291D0000000020 /* IconPickerView.swift in Sources */,
+				AA000001291D0000000021 /* FrequencyPickerView.swift in Sources */,
+				AA000001291D0000000022 /* CategoryPickerView.swift in Sources */,
+				AA000001291D0000000023 /* Constants.swift in Sources */,
+				AA000001291D0000000024 /* Extensions.swift in Sources */,
+				AA000001291D0000000028 /* Account.swift in Sources */,
+				AA000001291D0000000029 /* Tag.swift in Sources */,
+				AA000001291D0000000030 /* NotificationService.swift in Sources */,
+				AA000001291D0000000031 /* CloudKitService.swift in Sources */,
+				AA000001291D0000000032 /* AccountsView.swift in Sources */,
+				AA000001291D0000000033 /* TagsView.swift in Sources */,
+				AA000001291D0000000034 /* Profile.swift in Sources */,
+				AA000001291D0000000035 /* ProfilesView.swift in Sources */,
+				AA000001291D0000000036 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA000012291D0000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA000012291D0000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA000013291D0000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Recurr/Recurr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAM683M962;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Recurr/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Recurr;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "remote-notification";
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recurr.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA000013291D0000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Recurr/Recurr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VAM683M962;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Recurr/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Recurr;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIBackgroundModes = "remote-notification";
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 2.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.recurr.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA000007291D0000000001 /* Build configuration list for PBXNativeTarget "Recurr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000013291D0000000001 /* Debug */,
+				AA000013291D0000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000011291D0000000001 /* Build configuration list for PBXProject "Recurr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000012291D0000000001 /* Debug */,
+				AA000012291D0000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA000010291D0000000001 /* Project object */;
+}
